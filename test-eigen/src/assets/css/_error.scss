@@ -1,0 +1,15 @@
+.sect-error {
+	display: flex;
+	.container{
+		.error {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			h1 {
+				font-size: 30px;
+				font-weight: 700;
+				color: #c90808;
+			}
+		}
+	}
+}

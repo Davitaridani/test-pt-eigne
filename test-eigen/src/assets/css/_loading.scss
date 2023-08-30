@@ -1,0 +1,15 @@
+
+.sect-loading {
+	display: flex;
+	.container{
+		.loading {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			h1 {
+				font-size: 40px;
+				font-weight: 700;
+			}
+		}
+	}
+}

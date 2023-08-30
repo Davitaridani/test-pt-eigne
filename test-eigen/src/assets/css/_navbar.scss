@@ -1,0 +1,21 @@
+@use "globals";
+
+.navbar {
+	background-color: #3b3b3b;
+	padding: 15px 0;
+	margin-bottom: 50px;
+	.container {
+		a {
+			text-decoration: none;
+			display: flex;
+			align-items: center;
+			column-gap: 10px;
+			color: #fff;
+			font-size: 30px;
+			span {
+				font-size: 30px;
+				line-height: 0;
+			}
+		}
+	}
+}

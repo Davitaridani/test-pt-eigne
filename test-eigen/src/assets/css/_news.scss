@@ -1,0 +1,23 @@
+@use "globals";
+
+.sect-news {
+	.container {
+		.ant-row {
+			.ant-col {
+				height: 100%;
+				.ant-card {
+					.ant-card-body {
+						.link-detail {
+							.ant-card-meta-title {
+								font-size: 25px !important;
+								&:hover {
+									text-decoration: underline !important;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

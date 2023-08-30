@@ -1,12 +1,9 @@
-import './App.css'
+import React from 'react';
+import MainLayout from './components/layouts/mainLayout';
 
-
-const App = () => {
+const App: React.FC = () => {
   return (
-    <>
-
-      <h3>hello Word</h3>
-    </>
+    <MainLayout />
   )
 }
 
