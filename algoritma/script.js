@@ -15,7 +15,7 @@ const reverseStringWithNumber = (str) => {
 
 const inputString = "NEGIE1";
 const reverseString = reverseStringWithNumber(inputString);
-console.log(`Outut => ${reverseString}`);
+console.log(`Output => ${reverseString}`);
 
 // ================== Soal No 2 ==================
 console.log("======== Soal No 2 =========");
@@ -33,7 +33,7 @@ for (const word of words) {
     longWord = word;
   }
 }
-console.log(`Kata terpanjang dalam kalimat adalah:, ${longWord}`);
+console.log(`Kata terpanjang dalam kalimat adalah: ${longWord}`);
 
 // ========= Soal No 3 ==========
 console.log("======== Soal No 3 =========");

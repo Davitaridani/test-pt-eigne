@@ -23,7 +23,7 @@ const CardNews: React.FC<itemsProps> = ({ item }) => {
 					cover={<img src={urlToImage} alt="image cover" />
 					}
 				>
-					<Link to={`/news/${publishedAt}`} className='link-detail'>
+					<Link to={`/news/${publishedAt}`} className='link-detail' aria-label="detail-news">
 						<Meta
 							title={title}
 							description={description}
