@@ -20,7 +20,7 @@ interface dataNews {
 	data: Article[]
 }
 
-const News: React.FC<Article> = () => {
+const News: React.FC = () => {
 
 	const [dataArticles, setDataArticles] = useState<dataNews[]>([])
 	const [isLoading, setIsLoading] = useState(true)
